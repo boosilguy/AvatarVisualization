@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: cbf5bdf4c16d9574c8cd8aaf2f826bad
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 7997987472268989133
+    second: RussianRoulette
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'rusianroulette' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'mocap_Spine1' has translation animation
+      that will be discarded.\n\t'mocap_Spine1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'mocap_Head' has translation
+      animation that will be discarded.\n\t'mocap_LeftHand' has translation animation
+      that will be discarded.\n\t'mocap_RightHand' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RussianRoulette
+      takeName: rusianroulette
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mocap_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mocap_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mannequin@RussianRoulette(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_Hips
+      parentName: Mannequin@RussianRoulette(Clone)
+      position: {x: 0, y: 0.86126715, z: 0}
+      rotation: {x: -0.04889295, y: -0.007637028, z: 0.002424895, w: 0.9987719}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_Spine
+      parentName: mocap_Hips
+      position: {x: -0, y: 0.07336365, z: 0}
+      rotation: {x: -0.09230874, y: -0.004243757, z: 0.009353182, w: 0.9956775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_Spine1
+      parentName: mocap_Spine
+      position: {x: 0.000000048428774, y: 0.17465305, z: -0.00000020861626}
+      rotation: {x: 0.06943812, y: -0.0014140387, z: -0.0016549636, w: 0.9975839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_Neck
+      parentName: mocap_Spine1
+      position: {x: -0, y: 0.17718011, z: 0.016107284}
+      rotation: {x: 0.23157994, y: 0.030640304, z: 0.033978883, w: 0.97173935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_Head
+      parentName: mocap_Neck
+      position: {x: 0.000000027939677, y: 0.13160287, z: -0.018800676}
+      rotation: {x: 0.09159153, y: 0.021056475, z: -0.049187087, w: 0.99435824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftShoulder
+      parentName: mocap_Spine1
+      position: {x: -0.035873607, y: 0.16254896, z: -0.0029259026}
+      rotation: {x: 0.114581205, y: 0.0052619088, z: 0.019135293, w: 0.9932157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftArm
+      parentName: mocap_LeftShoulder
+      position: {x: -0.10107617, y: 0, z: 0}
+      rotation: {x: 0.36845458, y: 0.00095911475, z: -0.021720089, w: 0.92939144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftForeArm
+      parentName: mocap_LeftArm
+      position: {x: -0.28361446, y: 0, z: 0}
+      rotation: {x: -0.17594376, y: 0.021985207, z: -0.020182667, w: 0.98394775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftHand
+      parentName: mocap_LeftForeArm
+      position: {x: -0.23498558, y: 0.00000032782555, z: -0.00000008940697}
+      rotation: {x: -0.17168084, y: -0.06524854, z: -0.14147983, w: 0.9727547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightShoulder
+      parentName: mocap_Spine1
+      position: {x: 0.035624444, y: 0.16254896, z: -0.0029259026}
+      rotation: {x: 0.18943271, y: 0.06630659, z: -0.04909184, w: 0.97842157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightArm
+      parentName: mocap_RightShoulder
+      position: {x: 0.10107617, y: 0, z: 0}
+      rotation: {x: 0.4316498, y: -0.027722333, z: 0.05003564, w: 0.90022576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightForeArm
+      parentName: mocap_RightArm
+      position: {x: 0.28361446, y: 0, z: 0}
+      rotation: {x: -0.260103, y: -0.018828828, z: 0.021586014, w: 0.96515596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightHand
+      parentName: mocap_RightForeArm
+      position: {x: 0.23451714, y: 0.000000029802322, z: -0.00000014901161}
+      rotation: {x: -0.2487899, y: 0.11823967, z: 0.23575167, w: 0.9319571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftUpLeg
+      parentName: mocap_Hips
+      position: {x: -0.08946786, y: 0, z: 0}
+      rotation: {x: 0.04903886, y: -0.013868579, z: -0.031256597, w: 0.9982113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftLeg
+      parentName: mocap_LeftUpLeg
+      position: {x: -0, y: -0.39936835, z: 0}
+      rotation: {x: 0.1164615, y: -0.004980668, z: 0.03849661, w: 0.99243635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftFoot
+      parentName: mocap_LeftLeg
+      position: {x: -0, y: -0.41682833, z: 0}
+      rotation: {x: -0.11606743, y: -0.08231557, z: 0.0266142, w: 0.98946667}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_LeftToeBase
+      parentName: mocap_LeftFoot
+      position: {x: -0, y: -0.058154106, z: 0.1342018}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightUpLeg
+      parentName: mocap_Hips
+      position: {x: 0.08946786, y: 0, z: 0}
+      rotation: {x: 0.05260681, y: -0.007310663, z: 0.025991952, w: 0.99825025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightLeg
+      parentName: mocap_RightUpLeg
+      position: {x: -0, y: -0.39936835, z: 0}
+      rotation: {x: 0.11687519, y: -0.053066455, z: -0.05398, w: 0.99025774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightFoot
+      parentName: mocap_RightLeg
+      position: {x: -0, y: -0.41682833, z: 0}
+      rotation: {x: -0.12815027, y: 0.03673264, z: 0.0056175194, w: 0.9910584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mocap_RightToeBase
+      parentName: mocap_RightFoot
+      position: {x: -0, y: -0.058154106, z: 0.1342018}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
