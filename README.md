@@ -20,6 +20,7 @@
 
 <h2>Detail</h2>
 <p>OptiTrack의 Motive의 Avatar 데이터 Format은 Unity의 Humanoid Avatar Format에 적합합니다. 특히, Avatar 움직임을 부위별로 하이라이팅하기 위해서 스켈레톤의 부위별 Rigging Weight에 따라, Mesh의 rgb 값을 조절하였습니다. 이를테면, 어깨를 돌리는 동작이라면, 어깨 스켈레톤과 관련된 (Weight가 높은) Mesh (e.g. 팔의 상, 하박, 어깨)는 짙은 색상으로 하이라이트됩니다.</p>
+<p>Humanoid Avatar의 Mesh에 액세스하기 위해서, SkinnedMeshRenderer Component를 사용하였습니다. 해당 Component의 sharedMesh 프로퍼티를 이용해, Mesh들의 Vertex에 접근할 수 있었습니다. 앞서 언급한 것과 같이, Mesh의 Rigging Weight를 이용하여 해당 Mesh가 현재 움직임에 어느 정도 관여되었는지 확인합니다. 만약 해당 Mesh가 Avatar의 현 움직임에 충분히 관여되는 Mesh라면, 이 Mesh에 접근한 Vertex의 색상을 조건에 맞게 채색합니다. </p>
 <p>위와 같은 원리를 이용해, 메인 하이라이트는 두 가지 방식으로 Visualization 됩니다. 직전 10 프레임 동안의 평균 움직임을 렌더링하는 Realtime Visualization과 애니메이션이 끝난 직후의 총 움직임을 렌더링하는 Stacked Visualization으로 나뉩니다.</p>
 <p>또한, 좀 더 자세한 분석을 위해, 스켈레톤 움직임을 Yaw, Pitch, Roll로 구분하여 하이라이트하는 옵션을 추가하였습니다.</p>
 
