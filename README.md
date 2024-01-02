@@ -1,4 +1,7 @@
 <h1>Avatar Visualization (2021)</h1>
+
+![title](./main.png)
+
 <p>해당 페이지에서 Avatar Visualization 프로젝트의 분석 프로그램을 소개합니다.</p>
 
 <h2>Tech Stack</h2>
